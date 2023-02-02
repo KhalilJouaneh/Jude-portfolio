@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <p className="text-center text-xl font-bold">Jude Samman</p>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-[#fdfdfd]">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

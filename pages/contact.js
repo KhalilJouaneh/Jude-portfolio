@@ -1,10 +1,17 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Head from "next/head";
 
 function contact() {
   return (
     <>
+      <Head>
+        <title>Contact</title>
+        <meta name="description" content="Contact info" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <section className="bg-white dark:bg-gray-900 ">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
