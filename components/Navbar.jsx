@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 function Navbar() {
-
   return (
     <>
       <p className="text-center text-xl font-bold">Jude Samman</p>
@@ -30,22 +29,28 @@ function Navbar() {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a href="/about">About</a>
+                <Link href="/about">About</Link>
               </li>
               <li>
-                <a href="/exhibitions">Exhibitions</a>
+                <Link href="/exhibitions">Exhibitions</Link>
               </li>
               <li>
-                <a href="/other">Other projects</a>
+                <Link href="/other">Other projects</Link>
               </li>
               <li>
-                <a href="https://wallzy.com/artists/jude-al-samman?fbclid=PAAabZNy4nsGuonwhRWui9ivQ4txazFdWD-XWnDpH5hiByfJ_xjL8FPwLV-Qc" target="_blank" rel="noreferrer">Shop</a>
+                <Link
+                  href="https://wallzy.com/artists/jude-al-samman?fbclid=PAAabZNy4nsGuonwhRWui9ivQ4txazFdWD-XWnDpH5hiByfJ_xjL8FPwLV-Qc"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Shop
+                </Link>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -54,22 +59,28 @@ function Navbar() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a href="/" >Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <a href="/about" >About</a>
+              <Link href="/about">About</Link>
             </li>
             <li>
-              <a href="/exhibitions" >Exhibitions</a>
+              <Link href="/exhibitions">Exhibitions</Link>
             </li>
             <li>
-              <a href="/other" >Other projects</a>
+              <Link href="/other">Other projects</Link>
             </li>
             <li>
-              <a href="https://www.wallzy.com/artists/jude-al-samman?fbclid=PAAabZNy4nsGuonwhRWui9ivQ4txazFdWD-XWnDpH5hiByfJ_xjL8FPwLV-Qc" target="_blank" rel="noreferrer" >Shop</a>
+              <Link
+                href="https://www.wallzy.com/artists/jude-al-samman?fbclid=PAAabZNy4nsGuonwhRWui9ivQ4txazFdWD-XWnDpH5hiByfJ_xjL8FPwLV-Qc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Shop
+              </Link>
             </li>
             <li>
-              <a href="/contact" >Contact</a>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>
