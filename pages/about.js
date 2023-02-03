@@ -16,7 +16,7 @@ function about() {
       <p className="text-center font-bold text-[54px]"> Artist Biography</p>
       <div className="avatar w-screen flex">
         <div className="w-[250px] rounded-full m-auto mt-5">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png" />
+          <img src="/about_portrait.jpg" />
         </div>
       </div>
       <p className="text-left max-w-[500px] m-auto mt-7">

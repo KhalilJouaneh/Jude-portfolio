@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Link from "next/link";
 
 function exhibitions() {
   return (
@@ -8,18 +9,21 @@ function exhibitions() {
       <Navbar />
       <div className="flex justify-center items-center h-screen text-[32px] -mt-[85px]">
         <div>
-          <div className="grid h-16 rounded place-content-center">
+          <Link href="/music" className="grid h-16 rounded place-content-center">
             What Music Feels Like
-          </div>
-          <div className="grid h-16 rounded  place-content-center">
+          </Link>
+
+          <Link href="/homeawayfromhome" className="grid h-16 rounded place-content-center">
             Home Away From Home
-          </div>
-          <div className="grid h-16 rounded  place-content-center">
-            So Close Yet so Far
-          </div>
-          <div className="grid h-16 rounded  place-content-center">
+          </Link>
+
+          <Link href="/socloseyetsofar" className="grid h-16 rounded place-content-center">
+            So Close Yet So Far
+          </Link>
+
+          <Link href="/mass" className="grid h-16 rounded place-content-center">
             Mass Isolation
-          </div>
+          </Link>
         </div>
       </div>
       <Footer />
