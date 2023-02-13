@@ -3,9 +3,9 @@ import Link from "next/link";
 function Navbar() {
   return (
     <>
-      <p className="text-center text-xl font-bold">Jude Samman</p>
-      <div className="navbar bg-[#fdfdfd]">
+      <div className="navbar bg-[#fdfdfd] mt-5">
         <div className="navbar-start">
+          <p className="text-center text-[32px] font-bold ml-10">JUDE SAMMAN</p>
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -26,7 +26,7 @@ function Navbar() {
 
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content p-2 shadow bg-base-100 rounded-box w-52 "
             >
               <li>
                 <Link href="/">Home</Link>
@@ -54,9 +54,8 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          {/* <a className="btn btn-ghost normal-case text-xl">Carbovalent</a> */}
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex mr-10">
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link href="/">Home</Link>
@@ -84,7 +83,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end"></div>
+        {/* <div className="navbar-end"></div> */}
       </div>
     </>
   );
