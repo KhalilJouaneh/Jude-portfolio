@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Link from "next/link";
 
 function otherprojects() {
   return (
@@ -8,18 +9,33 @@ function otherprojects() {
       <Navbar />
       <div className="flex justify-center items-center h-screen text-[32px] -mt-[85px]">
         <div>
-          <div className="grid h-16 rounded place-content-center">
-            Comissions
-          </div>
-          <div className="grid h-16 rounded place-content-center">
+          <Link
+            href="/commissions"
+            className="grid h-16 rounded place-content-center gotham"
+          >
+            Commisions
+          </Link>
+
+          <Link
+            href="/hubbles"
+            className="grid h-16 rounded place-content-center gotham"
+          >
             Hubbles
-          </div>
-          <div className="grid h-16 rounded place-content-center">
+          </Link>
+
+          <Link
+            href="/jscribbles"
+            className="grid h-16 rounded place-content-center gotham"
+          >
             Jscribbles
-          </div>
-          <div className="grid h-16 rounded  place-content-center">
+          </Link>
+
+          <Link
+            href="/muse"
+            className="grid h-16 rounded place-content-center gotham"
+          >
             Muse
-          </div>
+          </Link>
         </div>
       </div>
       <Footer />

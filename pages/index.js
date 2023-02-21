@@ -17,14 +17,12 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <body>
           <div className="home-page-img mt-[10px]">
-            <figure>
+            {/* <figure> */}
               <img src="/home_page_img.jpg" alt="home page image" />
-            </figure>
+            {/* </figure> */}
           </div>
           {/* <Footer /> */}
-        </body>
       </div>
     </>
   );

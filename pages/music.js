@@ -50,6 +50,7 @@ function music() {
                 />
               </div>
             </div>
+            
             <div class="flex flex-wrap w-1/2">
               <div class="w-full p-1 md:p-2">
                 <img
